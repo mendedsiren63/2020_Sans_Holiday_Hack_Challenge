@@ -1,0 +1,6 @@
+elf.moveTo(lollipop[1])
+elf.moveTo(lollipop[0])
+var value = elf.ask_munch(0)
+var answer = value.filter(elem => typeof elem == "number")
+elf.tell_munch(answer)
+elf.moveUp(2)
