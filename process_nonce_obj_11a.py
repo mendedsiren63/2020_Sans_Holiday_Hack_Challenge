@@ -1,9 +1,5 @@
-#https://stackoverflow.com/questions/3553354/concatenate-two-32-bit-int-to-get-a-64-bit-long-in-python
-
+#!/usr/bin/python3
 import os
-
-
-
 main_nonce="nonce"
 obj_file_new_nonce="obj_new_nonce_624"
 cmd_cut='cat nonce | tail -312 > obj_nonce_312'
